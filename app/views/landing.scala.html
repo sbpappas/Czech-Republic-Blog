@@ -1,14 +1,64 @@
 @()
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Czech Blog</title>
     <link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/main.css")">
     <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/crossicon.png")">
+    <link rel="stylesheet" href="@routes.Assets.versioned("bootstrap/css/bootstrap.min.css")">
 </head>
 <body>
     <h1>Samuel's Summer of 2024</h1>
     <h2>Czech Republic Mission Adventure with Josiah Venture</h2>
-    <p>Welcome to your first Play Framework app with a custom HTML page and CSS!</p>
+
+    <nav class="tabs">
+        <a href="#post1" class="active">Post 1</a>
+        <a href="#post2">Post 2</a>
+        <a href="#post3">Post 3</a>
+        <a href="#post4">Post 4</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#post1">Post 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#post2">Post 2</a>
+                </li>
+                <!-- Add more nav items as needed -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <article class="blog-content" id="post1">
+            <h2 class="blog-title">First Blog Post</h2>
+            <p>This is the content of the first blog post. It might include some interesting thoughts, insights, or observations.</p>
+            <img src="@routes.Assets.versioned("images/blog-image1.jpg")" alt="Blog Image 1">
+            <p>More content goes here. Discuss the topic in detail and add value to the readers.</p>
+        </article>
+
+        <article class="blog-content" id="post2">
+            <h2 class="blog-title">Second Blog Post</h2>
+            <p>This is the content of the second blog post. You can share more thoughts or continue a series from the first post.</p>
+            <img src="@routes.Assets.versioned("images/blog-image2.jpg")" alt="Blog Image 2">
+            <p>Expand on the ideas introduced earlier and provide new insights.</p>
+        </article>
+
+        <!-- Repeat for other posts as needed -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Samuel Pappas. All rights reserved.</p>
+    </footer>
 </body>
 </html>
