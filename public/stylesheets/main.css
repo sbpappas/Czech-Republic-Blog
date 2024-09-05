@@ -82,6 +82,15 @@ footer{
     -moz-text-fill-color: transparent
 }
 .main_container h2{
+    font-size: 3rem;
+    background-image: linear-gradient(to top, rgb(9, 79, 255) 0%, rgb(103, 2, 255) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent
+}
+.main_container h3{
     font-size: 2rem;
     background-color: aqua;
     background-image: linear-gradient(to top, rgb(255, 9, 9) 0%, rgb(255, 121, 18) 100%);
@@ -98,7 +107,7 @@ footer{
 }
 
 .main_but {
-    font-size: 1rem;
+    font-size: 2rem;
     background-image: linear-gradient(to top, #5697DC 0%, #3d9fbd 100%);
     padding: 16px 32px;
     border: none;
@@ -152,6 +161,30 @@ footer{
 @media (max-width: 768px) {
     .column-container {
         flex-direction: column;      /* Stack columns vertically */
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 20px;               /* Position it near the bottom of the screen */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    font-size: 3rem;            /* Size of the arrow */
+    color: rgb(0, 0, 0);               /* Arrow color */
+    cursor: pointer;            /* Make it clickable */
+    animation: bounce 2s infinite; /* Optional animation to make the arrow bounce */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, 10px); /* Arrow moves up and down */
     }
 }
 
