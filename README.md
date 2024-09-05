@@ -6,3 +6,4 @@ Improvements:
 - animate on scroll
 - update the background photo, maybe add more photos to it?
 - update the buttons
+- github, linkedin logos and links in footer

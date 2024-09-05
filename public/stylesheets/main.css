@@ -4,18 +4,23 @@
 }
 nav {
     height: 80px;
+    position: fixed;
+    top: 0;                     /* Aligns the nav to the top of the page */
+    left: 0;                    /* Aligns the nav to the left of the page */
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(0, 0, 0);
+    background: rgb(255,255,255);
     padding: 0rem calc((100vw - 1300px)/2);
+    z-index: 1000;  
 }
 nav :hover{
     color:rgb(92, 171, 224);
 }
 footer{
-    color:rgb(234, 234, 234);
-    background: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
@@ -57,7 +62,7 @@ footer{
     height: 100%;
     
     /* Adjust the transparency here */
-    background-color: rgba(238, 238, 238, 0.75);  /* Black overlay with 30% opacity */
+    background-color: rgba(255, 255, 255, 0.75);  /* Black overlay with 30% opacity */
     z-index: 1;                            /* Overlay appears on top of the background */
 }
 
@@ -68,7 +73,7 @@ footer{
 
 .main_container h1{
     font-size: 6rem;
-    background-color: aqua;
+    
     background-image: linear-gradient(to top, rgb(9, 79, 255) 0%, rgb(103, 2, 255) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -122,4 +127,31 @@ footer{
     margin-bottom: 4rem;
 }
 
+/* Style for the content section below the headers */
+.content-section {
+    background-color: #5697DC;    /* Set a solid background color */
+    padding: 50px;                /* Add padding for spacing */
+}
+
+/* Two-column layout using Flexbox */
+.column-container {
+    display: flex;
+    justify-content: space-between; /* Space between columns */
+    gap: 20px;                      /* Optional gap between columns */
+}
+
+.column {
+    flex: 1;                        /* Make the columns take up equal width */
+    padding: 20px;
+    background-color: #ffffff;      /* Optional background for each column */
+    border-radius: 8px;             /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual effect */
+}
+
+/* For responsiveness, stack columns on smaller screens */
+@media (max-width: 768px) {
+    .column-container {
+        flex-direction: column;      /* Stack columns vertically */
+    }
+}
 
