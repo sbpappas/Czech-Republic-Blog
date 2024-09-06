@@ -685,3 +685,277 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4f0a435
 2024.09.05 12:21:25 INFO  compiling root (9 scala sources and 1 java source)
 2024.09.05 12:21:27 WARN  javac exited with exit code 1
 2024.09.05 12:21:27 INFO  time: compiled root in 1.27s
+2024.09.05 15:37:09 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:09 INFO  time: compiled root in 0.8s
+2024.09.05 15:37:09 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:09 INFO  time: compiled root in 0.1s
+2024.09.05 15:37:09 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:10 INFO  time: compiled root in 0.12s
+2024.09.05 15:37:26 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:26 INFO  time: compiled root in 0.17s
+2024.09.05 15:37:26 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:26 INFO  time: compiled root in 0.12s
+2024.09.05 15:37:28 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:28 INFO  time: compiled root in 0.15s
+2024.09.05 15:37:28 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:28 INFO  time: compiled root in 0.11s
+2024.09.05 15:37:53 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:55 WARN  javac exited with exit code 1
+2024.09.05 15:37:55 INFO  time: compiled root in 2.5s
+2024.09.05 15:37:55 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:57 WARN  javac exited with exit code 1
+2024.09.05 15:37:57 INFO  time: compiled root in 1.36s
+2024.09.05 15:37:57 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:37:58 WARN  javac exited with exit code 1
+2024.09.05 15:37:58 INFO  time: compiled root in 1.42s
+2024.09.05 15:37:58 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:38:00 WARN  javac exited with exit code 1
+2024.09.05 15:38:00 INFO  time: compiled root in 1.59s
+2024.09.05 15:53:57 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:54:01 WARN  javac exited with exit code 1
+2024.09.05 15:54:01 INFO  time: compiled root in 3.91s
+2024.09.05 15:54:01 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:54:03 WARN  javac exited with exit code 1
+2024.09.05 15:54:03 INFO  time: compiled root in 1.49s
+2024.09.05 15:54:07 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:54:09 WARN  javac exited with exit code 1
+2024.09.05 15:54:09 INFO  time: compiled root in 2.27s
+2024.09.05 15:58:16 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:58:19 WARN  javac exited with exit code 1
+2024.09.05 15:58:19 INFO  time: compiled root in 2.38s
+2024.09.05 15:58:19 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:58:20 WARN  javac exited with exit code 1
+2024.09.05 15:58:20 INFO  time: compiled root in 1.41s
+2024.09.05 15:58:20 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:58:22 WARN  javac exited with exit code 1
+2024.09.05 15:58:22 INFO  time: compiled root in 1.51s
+2024.09.05 15:58:22 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:58:24 WARN  javac exited with exit code 1
+2024.09.05 15:58:24 INFO  time: compiled root in 2.03s
+2024.09.05 15:58:24 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 15:58:25 WARN  javac exited with exit code 1
+2024.09.05 15:58:25 INFO  time: compiled root in 1.27s
+2024.09.05 16:08:46 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:08:48 WARN  javac exited with exit code 1
+2024.09.05 16:08:48 INFO  time: compiled root in 2.07s
+2024.09.05 16:08:48 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:08:49 WARN  javac exited with exit code 1
+2024.09.05 16:08:49 INFO  time: compiled root in 1.35s
+2024.09.05 16:08:49 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:08:51 WARN  javac exited with exit code 1
+2024.09.05 16:08:51 INFO  time: compiled root in 1.26s
+2024.09.05 16:26:14 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:26:17 WARN  javac exited with exit code 1
+2024.09.05 16:26:17 INFO  time: compiled root in 3.33s
+2024.09.05 16:26:17 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:26:18 WARN  javac exited with exit code 1
+2024.09.05 16:26:18 INFO  time: compiled root in 1.51s
+2024.09.05 16:26:18 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:26:22 WARN  javac exited with exit code 1
+2024.09.05 16:26:22 INFO  time: compiled root in 2.64s
+2024.09.05 16:26:22 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:26:23 WARN  javac exited with exit code 1
+2024.09.05 16:26:23 INFO  time: compiled root in 1.32s
+2024.09.05 16:35:53 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:35:55 WARN  javac exited with exit code 1
+2024.09.05 16:35:55 INFO  time: compiled root in 2.17s
+2024.09.05 16:35:55 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:35:56 WARN  javac exited with exit code 1
+2024.09.05 16:35:56 INFO  time: compiled root in 1.35s
+2024.09.05 16:35:56 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:35:58 WARN  javac exited with exit code 1
+2024.09.05 16:35:58 INFO  time: compiled root in 1.5s
+2024.09.05 16:35:58 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:36:00 WARN  javac exited with exit code 1
+2024.09.05 16:36:00 INFO  time: compiled root in 1.87s
+2024.09.05 16:36:00 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:36:02 WARN  javac exited with exit code 1
+2024.09.05 16:36:02 INFO  time: compiled root in 1.31s
+2024.09.05 16:36:02 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:36:03 WARN  javac exited with exit code 1
+2024.09.05 16:36:03 INFO  time: compiled root in 1.24s
+2024.09.05 16:36:03 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 16:36:04 WARN  javac exited with exit code 1
+2024.09.05 16:36:04 INFO  time: compiled root in 1.24s
+2024.09.05 17:31:10 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:13 WARN  javac exited with exit code 1
+2024.09.05 17:31:13 INFO  time: compiled root in 3.31s
+2024.09.05 17:31:13 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:15 WARN  javac exited with exit code 1
+2024.09.05 17:31:15 INFO  time: compiled root in 1.67s
+2024.09.05 17:31:15 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:17 WARN  javac exited with exit code 1
+2024.09.05 17:31:17 INFO  time: compiled root in 1.92s
+2024.09.05 17:31:23 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:25 WARN  javac exited with exit code 1
+2024.09.05 17:31:25 INFO  time: compiled root in 2.05s
+2024.09.05 17:31:25 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:26 WARN  javac exited with exit code 1
+2024.09.05 17:31:26 INFO  time: compiled root in 1.3s
+2024.09.05 17:31:26 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:31:28 WARN  javac exited with exit code 1
+2024.09.05 17:31:28 INFO  time: compiled root in 1.55s
+2024.09.05 17:34:50 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:34:52 WARN  javac exited with exit code 1
+2024.09.05 17:34:52 INFO  time: compiled root in 2.1s
+2024.09.05 17:34:52 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:34:54 WARN  javac exited with exit code 1
+2024.09.05 17:34:54 INFO  time: compiled root in 1.42s
+2024.09.05 17:34:54 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:34:56 WARN  javac exited with exit code 1
+2024.09.05 17:34:56 INFO  time: compiled root in 1.94s
+2024.09.05 17:34:56 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:34:58 WARN  javac exited with exit code 1
+2024.09.05 17:34:58 INFO  time: compiled root in 1.97s
+2024.09.05 17:34:58 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:35:00 WARN  javac exited with exit code 1
+2024.09.05 17:35:00 INFO  time: compiled root in 1.27s
+2024.09.05 17:48:32 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:48:35 WARN  javac exited with exit code 1
+2024.09.05 17:48:35 INFO  time: compiled root in 3.24s
+2024.09.05 17:48:35 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:48:37 WARN  javac exited with exit code 1
+2024.09.05 17:48:37 INFO  time: compiled root in 1.47s
+2024.09.05 17:48:37 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:48:38 WARN  javac exited with exit code 1
+2024.09.05 17:48:38 INFO  time: compiled root in 1.31s
+2024.09.05 17:49:11 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:49:17 WARN  javac exited with exit code 1
+2024.09.05 17:49:17 INFO  time: compiled root in 5.92s
+2024.09.05 17:50:05 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:07 WARN  javac exited with exit code 1
+2024.09.05 17:50:07 INFO  time: compiled root in 2.31s
+2024.09.05 17:50:07 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:09 WARN  javac exited with exit code 1
+2024.09.05 17:50:09 INFO  time: compiled root in 2.05s
+2024.09.05 17:50:26 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:28 WARN  javac exited with exit code 1
+2024.09.05 17:50:28 INFO  time: compiled root in 2.22s
+2024.09.05 17:50:28 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:30 WARN  javac exited with exit code 1
+2024.09.05 17:50:30 INFO  time: compiled root in 1.42s
+2024.09.05 17:50:30 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:31 WARN  javac exited with exit code 1
+2024.09.05 17:50:31 INFO  time: compiled root in 1.46s
+2024.09.05 17:50:31 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:33 WARN  javac exited with exit code 1
+2024.09.05 17:50:33 INFO  time: compiled root in 1.85s
+2024.09.05 17:50:33 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 17:50:35 WARN  javac exited with exit code 1
+2024.09.05 17:50:35 INFO  time: compiled root in 1.32s
+2024.09.05 19:56:54 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 19:56:59 WARN  javac exited with exit code 1
+2024.09.05 19:56:59 INFO  time: compiled root in 4.24s
+2024.09.05 19:58:51 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 19:58:54 WARN  javac exited with exit code 1
+2024.09.05 19:58:54 INFO  time: compiled root in 2.6s
+2024.09.05 19:58:54 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 19:58:56 WARN  javac exited with exit code 1
+2024.09.05 19:58:56 INFO  time: compiled root in 2.2s
+2024.09.05 20:34:26 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 20:34:30 WARN  javac exited with exit code 1
+2024.09.05 20:34:30 INFO  time: compiled root in 3.81s
+2024.09.05 20:34:30 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 20:34:32 WARN  javac exited with exit code 1
+2024.09.05 20:34:32 INFO  time: compiled root in 2.19s
+2024.09.05 20:34:32 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 20:34:34 WARN  javac exited with exit code 1
+2024.09.05 20:34:34 INFO  time: compiled root in 1.64s
+2024.09.05 20:34:34 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 20:34:36 WARN  javac exited with exit code 1
+2024.09.05 20:34:36 INFO  time: compiled root in 2.06s
+2024.09.05 21:02:42 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:02:46 WARN  javac exited with exit code 1
+2024.09.05 21:02:46 INFO  time: compiled root in 3.58s
+2024.09.05 21:02:46 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:02:46 INFO  time: compiled root in 0.26s
+2024.09.05 21:03:17 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:17 INFO  time: compiled root in 0.17s
+2024.09.05 21:03:23 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:23 INFO  time: compiled root in 0.24s
+2024.09.05 21:03:23 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:24 INFO  time: compiled root in 0.17s
+2024.09.05 21:03:47 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:47 INFO  time: compiled root in 0.31s
+2024.09.05 21:03:47 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:47 INFO  time: compiled root in 0.25s
+2024.09.05 21:03:47 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:03:48 INFO  time: compiled root in 0.23s
+2024.09.05 21:04:02 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:02 INFO  time: compiled root in 0.28s
+2024.09.05 21:04:11 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:11 INFO  time: compiled root in 0.17s
+2024.09.05 21:04:14 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:14 INFO  time: compiled root in 0.27s
+2024.09.05 21:04:20 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:20 INFO  time: compiled root in 0.23s
+2024.09.05 21:04:51 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:51 INFO  time: compiled root in 0.28s
+2024.09.05 21:04:56 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:04:56 INFO  time: compiled root in 0.26s
+2024.09.05 21:05:44 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:05:44 INFO  time: compiled root in 0.29s
+2024.09.05 21:05:47 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:05:47 INFO  time: compiled root in 0.24s
+2024.09.05 21:05:47 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:05:47 INFO  time: compiled root in 0.21s
+2024.09.05 21:06:38 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:06:38 INFO  time: compiled root in 0.28s
+2024.09.05 21:07:37 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:07:37 INFO  time: compiled root in 0.31s
+2024.09.05 21:07:51 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:07:51 INFO  time: compiled root in 0.23s
+2024.09.05 21:08:03 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:08:03 INFO  time: compiled root in 0.24s
+2024.09.05 21:08:05 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:08:05 INFO  time: compiled root in 0.23s
+2024.09.05 21:08:19 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:08:19 INFO  time: compiled root in 0.31s
+2024.09.05 21:08:22 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:08:22 INFO  time: compiled root in 0.22s
+2024.09.05 21:08:57 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:09:00 WARN  javac exited with exit code 1
+2024.09.05 21:09:00 INFO  time: compiled root in 2.52s
+2024.09.05 21:10:08 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:10:10 WARN  javac exited with exit code 1
+2024.09.05 21:10:10 INFO  time: compiled root in 2.16s
+2024.09.05 21:10:10 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:10:12 WARN  javac exited with exit code 1
+2024.09.05 21:10:12 INFO  time: compiled root in 1.3s
+2024.09.05 21:13:44 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:13:44 INFO  time: compiled root in 0.52s
+2024.09.05 21:14:18 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:18 INFO  time: compiled root in 0.3s
+2024.09.05 21:14:35 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:35 INFO  time: compiled root in 0.31s
+2024.09.05 21:14:36 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:36 INFO  time: compiled root in 0.18s
+2024.09.05 21:14:40 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:40 INFO  time: compiled root in 0.21s
+2024.09.05 21:14:44 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:44 INFO  time: compiled root in 0.23s
+2024.09.05 21:14:48 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:48 INFO  time: compiled root in 0.14s
+2024.09.05 21:14:52 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:52 INFO  time: compiled root in 0.21s
+2024.09.05 21:14:58 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:14:58 INFO  time: compiled root in 0.2s
+2024.09.05 21:17:45 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:17:48 WARN  javac exited with exit code 1
+2024.09.05 21:17:48 INFO  time: compiled root in 2.38s
+2024.09.05 21:18:49 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:18:49 INFO  time: compiled root in 0.16s
+2024.09.05 21:19:05 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:19:05 INFO  time: compiled root in 0.26s
+2024.09.05 21:19:10 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:19:10 INFO  time: compiled root in 0.21s
+2024.09.05 21:19:27 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:19:30 WARN  javac exited with exit code 1
+2024.09.05 21:19:30 INFO  time: compiled root in 2.18s
+2024.09.05 21:19:41 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:19:41 INFO  time: compiled root in 0.28s
+2024.09.05 21:19:45 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:19:45 INFO  time: compiled root in 0.21s
+2024.09.05 21:20:11 INFO  compiling root (9 scala sources and 1 java source)
+2024.09.05 21:20:13 WARN  javac exited with exit code 1
+2024.09.05 21:20:13 INFO  time: compiled root in 2.19s

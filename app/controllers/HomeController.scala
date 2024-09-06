@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
+import views.html.main
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -23,5 +24,9 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   }
   def blog() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.landing())
+  }
+
+  def article1 = Action { implicit request: Request[AnyContent] =>
+      Ok(views.html.article1())
   }
 }

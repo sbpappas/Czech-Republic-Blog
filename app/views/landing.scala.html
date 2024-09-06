@@ -8,18 +8,25 @@
     <link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/main.css")">
     <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/crossicon.png")">
     <link rel="stylesheet" href="@routes.Assets.versioned("bootstrap/css/bootstrap.min.css")">
+   
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+    
+    <script src="https://unpkg.com/react@@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@@18/umd/react-dom.development.js"></script>
 </head>
 <body>
     
-
+    <div id="root"></div>
     <nav class="tabs">
-        <a href="/" class="active">Overview</a>
-        <a href="#post2">Training</a>
-        <a href="#post3">Prep and Ostrava Life</a>
-        <a href="#post4">Camp #1</a>
-        <a href="#post4">Camp #2</a>
-        <a href="#post4">Camp #3</a>
-        <a href="#post4">End of Summer Revelations</a>
+        <a href="/article1" class="active">Overview</a>
+        <a href="/article2">Training</a>
+        <a href="/article3">Prep and Ostrava Life</a>
+        <a href="/article4">Camp #1</a>
+        <a href="/article5">Camp #2</a>
+        <a href="/article6">Camp #3</a>
+        <a href="/article7">End of Summer Revelations</a>
     </nav>
     <div class="main">
         <div class="main_container">
@@ -47,6 +54,7 @@
                     <p>I created this web page as an electronic scrapbook - something to help remember and memorialize a wonderful part of my life! Thanks for checking it out.</p>
                 </div>
                 <div class="column">
+                    <div id="root"></div>
                     <p>This is some text in the second column. You can add more content here.</p>
                 </div>
             </div>
@@ -60,5 +68,6 @@
         <p>© 2024 Samuel Pappas. </p>
     </footer>
     <script src="@routes.Assets.versioned("bootstrap/js/bootstrap.bundle.min.js")"></script>
+    <script src="@routes.Assets.versioned("javascripts/main.js")" defer></script>
 </body>
 </html>

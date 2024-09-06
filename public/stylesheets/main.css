@@ -177,6 +177,11 @@ html {
     color: rgb(0, 0, 0);               /* Arrow color */
     cursor: pointer;            /* Make it clickable */
     animation: bounce 2s infinite; /* Optional animation to make the arrow bounce */
+    z-index: 10;
+}
+.scroll-arrow:hover{
+    color:#3d9fbd;
+    border:rgb(0, 0, 0);
 }
 
 @keyframes bounce {
