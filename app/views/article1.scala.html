@@ -1,7 +1,17 @@
 @()
 
 @main("Article 1") {
-    <br><br><br>
-    <h1>What is this website?</h1>
-    <p>I came home in August of 2024 with a desire to remember my summer well - and this is what I came up with.</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <br><br><br>
+        <h1>What is this website?</h1>
+        <p>I came home in August of 2024 with a desire to remember my summer well - and this is what I came up with.</p>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+    </head>
+    <body>
+        <script src="@routes.Assets.versioned("bootstrap/js/bootstrap.bundle.min.js")"></script>
+        <script src="@routes.Assets.versioned("javascripts/article.js")" defer></script>
+    </body>
+    </html>
 }
