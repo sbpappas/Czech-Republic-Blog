@@ -1,4 +1,5 @@
 @()
+@main("landing"){
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,13 +21,13 @@
     
     <div id="root"></div>
     <nav class="tabs">
-        <a href="/article1" class="active">Overview</a>
-        <a href="/article2">Training</a>
-        <a href="/article3">Prep and Ostrava Life</a>
-        <a href="/article4">Camp #1</a>
-        <a href="/article5">Camp #2</a>
-        <a href="/article6">Camp #3</a>
-        <a href="/article7">End of Summer Revelations</a>
+        <a href="/blog" class="active">Home</a>
+        <a href="/article1">1. Training</a>
+        <a href="/article2">2. Prep and Ostrava Life</a>
+        <a href="/article3">3. Camp #1</a>
+        <a href="/article4">4. Camp #2</a>
+        <a href="/article5">5. Camp #3</a>
+        <a href="/article6">6. End of Summer Revelations</a>
     </nav>
     <div class="main">
         <div class="main_container">
@@ -71,3 +72,4 @@
     <script src="@routes.Assets.versioned("javascripts/main.js")" defer></script>
 </body>
 </html>
+}
