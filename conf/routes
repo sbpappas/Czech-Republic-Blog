@@ -7,7 +7,10 @@
 GET     /                           controllers.HomeController.index()
 GET     /blog                       controllers.HomeController.blog()
 
-GET  /blog         controllers.HomeController.article1()
+GET  /training         controllers.HomeController.training()
+
+# GET  /training         controllers.HomeController.training()
+# GET  /camp1         controllers.HomeController.camp1()
 
 
 

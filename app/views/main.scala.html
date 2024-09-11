@@ -13,20 +13,22 @@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/crossicon.png")">
-        
+        <script src="https://unpkg.com/react/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head> 
     <body>
         
-        <nav>
-            <a href="/article1" class="active">Home</a>
-            <a href="/article2">Training</a>
-            <a href="/article3">Prep and Ostrava Life</a>
-            <a href="/article4">Camp #1</a>
-            <a href="/article5">Camp #2</a>
-            <a href="/article6">Camp #3</a>
-            <a href="/article7">End of Summer Revelations</a>
+        <nav class="tabs">
+            <a href="/blog" class="active">Home</a>
+            <a href="/training">1. Training</a>
+            <a href="/article2">2. Prep and Ostrava Life</a>
+            <a href="/article3">3. Camp #1</a>
+            <a href="/article4">4. Camp #2</a>
+            <a href="/article5">5. Camp #3</a>
+            <a href="/article6">6. End of Summer Revelations</a>
         </nav>
         @* And here's where we render the `Html` object containing
          * the page content. *@

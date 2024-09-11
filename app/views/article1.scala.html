@@ -1,17 +1,40 @@
-@()
+@(title: String, paragraphs: Seq[String], images: Seq[(String, String)])  <!-- Parameters for dynamic content -->
 
-@main("Article 1") {
+@main("Training") {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-        <br><br><br>
-        <h1>What is this website?</h1>
-        <p>I came home in August of 2024 with a desire to remember my summer well - and this is what I came up with.</p>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+
     </head>
     <body>
+
+        <br> <br> <br><br>
         <script src="@routes.Assets.versioned("bootstrap/js/bootstrap.bundle.min.js")"></script>
-        <script src="@routes.Assets.versioned("javascripts/article.js")" defer></script>
+        <div class="article-page">
+            <div class="article-header">
+                <h1>@title</h1>
+            </div>
+            
+            <div class="article-content">
+                @for(paragraph <- paragraphs) {
+                    <p>@paragraph</p>
+                }
+                
+                <div class="photo-gallery">
+                    @for((src, alt) <- images) {
+                        <img src="@routes.Assets.versioned(src)" alt="@alt">
+                    }
+                </div>
+            </div>
+        </div>
+        <div id="root"></div>  <!-- React will render the page here -->
+
+        <script type="text/babel" src="@routes.Assets.versioned("javascripts/article.js")"></script>
+
+        
     </body>
     </html>
+
+    
 }
