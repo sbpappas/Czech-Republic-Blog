@@ -11,6 +11,8 @@
     <head>
         @* Here's where we render the page title `String`. *@
         <title>@title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/crossicon.png")">
         <script src="https://unpkg.com/react/umd/react.development.js"></script>
@@ -22,13 +24,13 @@
     <body>
         
         <nav class="tabs">
-            <a href="/blog" class="active">Home</a>
+            <a href="/blog">Home</a>
             <a href="/training">1. Training</a>
-            <a href="/article2">2. Prep and Ostrava Life</a>
+            <a href="/prep">2. Prep and Ostrava Life</a>
             <a href="/article3">3. Camp #1</a>
             <a href="/article4">4. Camp #2</a>
             <a href="/article5">5. Camp #3</a>
-            <a href="/article6">6. End of Summer Revelations</a>
+            <a href="/article6">End of Summer Revelations</a>
         </nav>
         @* And here's where we render the `Html` object containing
          * the page content. *@

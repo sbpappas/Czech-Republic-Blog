@@ -1,6 +1,6 @@
-@(title: String, paragraphs: Seq[String], images: Seq[(String, String)])  <!-- Parameters for dynamic content -->
+@()  <!-- Parameters for dynamic content -->
 
-@main("Training") {
+@main("Weeks 2-4: Prep and Ostrava") {
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -22,7 +22,8 @@
                 <div class="main_content">
                     <div class="jumbotron text-center">
                         <div class="article-header">
-                            <h1>@title</h1>
+                            <h1>Weeks 2-4:</h1> 
+                            <h1>Prep and Ostrava</h1>
                         </div>
                         <h3>Czech Republic Mission Adventure with Josiah Venture</h3>
                     </div>                                    
@@ -32,14 +33,10 @@
             
             
             <div class="article-content">
-                @for(paragraph <- paragraphs) {
-                    <p>@paragraph</p>
-                }
+                
                     
                     <div class="photo-gallery">
-                        @for((src, alt) <- images) {
-                            <img src="@routes.Assets.versioned(src)" alt="@alt">
-                        }
+                            <img src="@routes.Assets.versioned("public/images/boys.jpeg")" alt="test alt">
                     </div>
             </div>
     
@@ -49,7 +46,6 @@
                         <p>I created this web page as an electronic scrapbook - something to help remember and memorialize a wonderful part of my life! Thanks for checking it out.</p>
                     </div>
                     <div class="column">
-                        <div id="root"></div>
                         <p>This is some text in the second column. You can add more content here.</p>
                     </div>
                 </div>
